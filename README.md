@@ -1,5 +1,5 @@
-<div align-item="centre">
-  LIVE : https://pawn-shop-rk.netlify.app/
+<div align="center">
+  # LIVE : https://pawn-shop-rk.netlify.app/
 </div>
 
 # Collector's Hub
