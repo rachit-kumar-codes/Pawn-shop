@@ -1,6 +1,6 @@
 # Collector's Hub
 
-A responsive web app for collectors to browse a marketplace, explore a community feed, and manage a personal collection of collectibles (coins, stamps, comics, vinyl, trading cards, etc.)
+A Custom **Pawn Shop** for collectors to browse a marketplace, explore a community feed, and manage a personal collection of collectibles (coins, stamps, comics, vinyl, trading cards, etc.)
 
 Built with React, Vite, React Router, and plain JavaScript. No TypeScript, no external UI library — vanilla CSS throughout.
 
@@ -58,6 +58,21 @@ src/
 - There's no real backend. `src/utils/mockApi.js` wraps the local mock data in a `Promise` with an artificial delay (and occasional failure) so loading/error states have something real to respond to.
 - State is kept simple on purpose: React Context + `localStorage`, no Redux or other state library — the app doesn't need it at this size.
 - Authentication is not implemented, per the assignment scope.
+
+---
+
+## LAYOUT :
+---
+
+### Main page  
+<img width="1738" height="970" alt="Screenshot 2026-07-19 220502" src="https://github.com/user-attachments/assets/1492ba2a-ba73-4a00-b897-6f5c83f07a32" />
+
+
+---
+
+### Orders : 
+
+<img width="1731" height="957" alt="Screenshot 2026-07-19 220525" src="https://github.com/user-attachments/assets/7d4eaac7-604f-4029-a872-fe23ee31de07" />
 
 ---
 
