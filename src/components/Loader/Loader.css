@@ -1,0 +1,57 @@
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton-card__image {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+.skeleton-card__body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skeleton-card__line {
+  height: 12px;
+}
+
+.skeleton-card__line--wide {
+  width: 90%;
+}
+
+.skeleton-card__line--medium {
+  width: 60%;
+}
+
+.skeleton-card__line--narrow {
+  width: 40%;
+}
+
+.spinner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 60px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  border-top-color: var(--brass);
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
